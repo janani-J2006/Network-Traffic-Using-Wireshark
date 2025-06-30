@@ -12,7 +12,7 @@ This project involves capturing and analyzing network packets on a Kali Linux vi
 
 ---
 
-## 🔎 Steps Performed
+##  Steps Performed
 
  1. Updated Kali Linux and installed Wireshark:
 
