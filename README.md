@@ -14,18 +14,18 @@ This project involves capturing and analyzing network packets on a Kali Linux vi
 
 ## 🔎 Steps Performed
 
- **1. Updated Kali Linux and installed Wireshark:**
+ 1. Updated Kali Linux and installed Wireshark:
 ```bash
 sudo apt update
 sudo apt install wireshark -y
 
-**2. Opened Wireshark and started capturing packets**
+2. Opened Wireshark and started capturing packets
 
 Selected my network interface (e.g., eth0 or enp0s3).
 
 Clicked the blue shark fin icon to start capture.
 
-**3. Checked for ICMP packets**
+3. Checked for ICMP packets
 
 In the terminal, I ran:
 
@@ -37,7 +37,7 @@ In Wireshark, I typed icmp in the filter box to see ICMP packets.
 
 Took a screenshot.
 
-**4. Checked for DNS packets**
+4. Checked for DNS packets
 
 When I pinged or used curl, DNS packets were automatically generated (because the system had to resolve google.com).
 
@@ -45,7 +45,7 @@ In Wireshark, I used the filter dns.
 
 Took a screenshot.
 
-**5. Checked for TCP packets**
+5. Checked for TCP packets
 
 In the terminal, I ran:
 
@@ -57,11 +57,11 @@ In Wireshark, I used the filter tcp to see TCP packets.
 
 Took a screenshot.
 
-**6. Saved my Wireshark capture**
+6. Saved my Wireshark capture
 
 Saved the capture file as network-capture.pcap.
 
-**Files Included**
+Files Included
 network-capture.pcap — The saved Wireshark capture.
 
 icmp.png — Screenshot of ICMP packets.
