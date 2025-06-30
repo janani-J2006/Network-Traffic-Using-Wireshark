@@ -17,8 +17,8 @@ This project involves capturing and analyzing network packets on a Kali Linux vi
 
  1. Updated Kali Linux and installed Wireshark:
 
-'''sudo apt update
-sudo apt install wireshark -y'''
+sudo apt update
+sudo apt install wireshark -y
 
 
 2. Opened Wireshark and started capturing packets
@@ -33,7 +33,7 @@ Clicked the blue shark fin icon to start capture.
 
 In the terminal, I ran:
 
-'''ping google.com'''
+ping google.com
 
 In Wireshark, I typed icmp in the filter box to see ICMP packets.
 
@@ -53,7 +53,7 @@ Took a screenshot.
 
 In the terminal, I ran:
 
-'''curl http://google.com'''
+curl http://google.com
 
 In Wireshark, I used the filter tcp to see TCP packets.
 
